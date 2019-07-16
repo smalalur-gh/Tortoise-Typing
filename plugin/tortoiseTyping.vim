@@ -9,7 +9,7 @@ set cpo&vim
 " common start commands
 command! TutorialTyping call tortoiseTyping#TutorialTyping()
 command! TortoiseTyping call tortoiseTyping#TortoiseTyping()
-command! -nargs=1 FileTyping call tortoiseTyping#FileTyping("<args>")
+command! -nargs=3 FileTyping call tortoiseTyping#FileTyping("<args>")
 
 let &cpo= s:keepcpo
 unlet s:keepcpo
